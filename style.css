@@ -2,4 +2,125 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-color: #E5E5E5;
+}
+
+.header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    height: 4.375rem;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 3.5rem;
+    padding: 0.875rem;
+}
+
+.header li{
+    margin-left: 3rem;
+    color: #545454;
+    font-size: 14px;
+}
+
+.header ul{
+    display: flex;
+    align-items: center;
+    margin-right: 5rem;
+}
+
+.menu-list-header {
+    display: flex;
+    list-style: none;
+}
+
+.post-main {
+    width: 45.750em;
+    height: auto;
+    margin-top: 8rem;
+    
+}
+
+.post {
+    background-color: #fff;
+    margin-bottom: 2.5rem;
+}
+
+.post h2 {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.5rem;
+}
+
+.post h4 {
+    font-size: 12px;
+    color: #929292;
+    font-weight: 400;
+    padding-bottom: 0.875rem;
+    padding-left: 1.5rem;
+}
+
+.post p {
+    text-align: justify;
+    color: #545454;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 1.5rem 1.5rem 0 1.5rem;
+
+}
+
+.post button {
+    background: none;
+    border: 1px solid #FE0078;
+    margin-top: 36px;
+    margin-bottom: 24px;
+    margin-left: 550px;
+    font-size: 14px;
+    padding: 12px 24px;
+    border-radius: 20px;
+}
+
+.post button:hover {
+    background: #FE0078;
+    color: #fff;
+}
+
+.menu-side {
+    width: 380px;
+    height: auto;
+    margin-top: 8rem;
+    border: 1px solid black;
+}
+
+.all-menu{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.menu-side input {
+    padding-left: 20px;
+    padding-right: 218px;
+    border-radius: 5px;
+}
+
+.menu-side ul{
+    list-style: none;
+}
+
+.footer-background {
+    display: flex;
+    height: 70px;
+    margin-top: 4rem;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
 }
